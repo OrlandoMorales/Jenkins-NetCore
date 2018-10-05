@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApplications", "TestApplications", "{6EF36038-3902-46CB-A495-437050B4E81D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApiOne", "WebApiOne", "{6CC5A59E-34AB-4B96-A856-D3C89776D109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsWebApi", "JenkinsWebApi\JenkinsWebApi.csproj", "{5D7A6892-C9D2-477A-9A40-C04BAE95B2FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D7A6892-C9D2-477A-9A40-C04BAE95B2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7A6892-C9D2-477A-9A40-C04BAE95B2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7A6892-C9D2-477A-9A40-C04BAE95B2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7A6892-C9D2-477A-9A40-C04BAE95B2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CC5A59E-34AB-4B96-A856-D3C89776D109} = {6EF36038-3902-46CB-A495-437050B4E81D}
+		{5D7A6892-C9D2-477A-9A40-C04BAE95B2FF} = {6CC5A59E-34AB-4B96-A856-D3C89776D109}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85BE1A60-19EF-4EF7-A6AD-A4846BC5D728}
+	EndGlobalSection
+EndGlobal
